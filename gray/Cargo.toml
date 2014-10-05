@@ -1,0 +1,9 @@
+[package]
+
+name = "gray"
+version = "0.0.1"
+authors = ["Rotari Razvan-Gabriel <razvanrotari@gmail.com>"]
+
+
+[dependencies.image]
+git = "https://github.com/PistonDevelopers/rust-image"

@@ -1,0 +1,12 @@
+[root]
+name = "gray"
+version = "0.0.1"
+dependencies = [
+ "image 0.0.0 (git+https://github.com/PistonDevelopers/rust-image#ee0e7064d96a1015650481b7046420e6238cf53d)",
+]
+
+[[package]]
+name = "image"
+version = "0.0.0"
+source = "git+https://github.com/PistonDevelopers/rust-image#ee0e7064d96a1015650481b7046420e6238cf53d"
+

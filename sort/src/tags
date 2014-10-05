@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+App	main.rs	/^impl App {$/;"	i
+App	main.rs	/^pub struct App {$/;"	s
+BLUE	main.rs	/^pub static BLUE:[f32, ..4] = [0.0, 0.0, 255.0, 1.0];$/;"	c
+GREEN	main.rs	/^pub static GREEN:[f32, ..4] = [0.0, 255.0, 0.0, 1.0];$/;"	c
+Locations	main.rs	/^struct Locations {$/;"	s
+RED	main.rs	/^pub static RED:[f32, ..4] = [255.0, 0.0, 0.0 ,1.0];$/;"	c
+Send for Locations	main.rs	/^impl Send for Locations {}$/;"	i
+generate_heights	main.rs	/^fn generate_heights<T: Ord>(elements:&[T]) -> std::vec::Vec<f64>{$/;"	f
+main	main.rs	/^fn main() {$/;"	f
+partition	sort.rs	/^    fn partition<T: Ord>(xs:&mut [T], p:uint, step:|i: uint, j: uint|) -> uint {$/;"	f
+pivot	sort.rs	/^    fn pivot<T: Ord>(xs:&[T]) -> uint{$/;"	f
+qsort	sort.rs	/^    pub fn qsort<T: Ord>(xs:&mut [T], step:|i: uint, j: uint|) {$/;"	f
+render	main.rs	/^    fn render(&mut self, args: &RenderArgs) {$/;"	f
+sort	main.rs	/^mod sort;$/;"	m
+sort	sort.rs	/^    fn sort<T: Ord>(xs:&mut [T], pivot:uint, step:|i: uint, j: uint|) {$/;"	f
+sort	sort.rs	/^pub mod sort {$/;"	m
+test_generate_height	main.rs	/^fn test_generate_height() {$/;"	f
+test_pivot	sort.rs	/^    fn test_pivot() {$/;"	f
+test_sort	sort.rs	/^    fn test_sort() {$/;"	f
+test_sorted	sort.rs	/^    fn test_sorted() {$/;"	f
+update	main.rs	/^    fn update(&mut self, _: &UpdateArgs) {$/;"	f

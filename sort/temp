@@ -1,0 +1,12 @@
+let lasti = xs.len() - 1;
+let (mut i, mut nextp) = (0, 0);
+xs.swap(lasti, p);
+while i < lasti {
+    if xs[i] <= xs[lasti] {
+        xs.swap(i, nextp);
+        nextp = nextp + 1;
+    }
+    i = i + 1;
+}
+xs.swap(nextp, lasti);
+nextp
